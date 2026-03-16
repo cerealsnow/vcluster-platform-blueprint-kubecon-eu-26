@@ -5,7 +5,7 @@ additionalIngress:
     traefik.ingress.kubernetes.io/router.entrypoints: web
     cert-manager.io/cluster-issuer: letsencrypt-staging
   hosts:
-    - host: controlplane-prod.172.18.255.254.nip.io
+    - host: controlplane-prod.172.20.255.254.nip.io
       paths:
         - path: /
           pathType: Prefix
